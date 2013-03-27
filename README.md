@@ -8,8 +8,5 @@ Yamayami(ヤマヤミ/止マナイ雨ニ病ミナガラ) ported to Ren'Py.
 1. スクリプトをclone
 <pre>git clone git://github.com/mikoim/yamayami.git</pre>
 
-2. 画像や音声をダウンロード
-<pre>http://goo.gl/CnCtl</pre>
-
-3. Ren'Pyでプレイ
+2. Ren'Pyでプレイ
 <pre>http://www.renpy.org/</pre>
