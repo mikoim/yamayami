@@ -38,7 +38,7 @@ label misogi1:
     
     show misogi mi_1_02
     
-    mi "「うん！　私いいとこ知ってるよ！　一緒に行こ？」"
+    mi "「うん！　私いいとこ知ってるよ！一緒に行こ？」"
     
     so "「お、おう」"
     
@@ -81,7 +81,7 @@ label misogi1:
     scene bg bg_c00
     with Fade(1, 0, 1)
     
-    play music "sound/bgm/misogi.ogg" fadeout 2.0
+    play music "sound/bgm/misogi.ogg" fadeout 1.0
     
     show misogi mi_1_02
     with dissolve
@@ -123,7 +123,7 @@ label misogi1:
     scene bg bg_d02
     with Fade(1, 0, 1)
     
-    play music "sound/bgm/bgm_101.ogg" fadeout 2.0
+    play music "sound/bgm/bgm_101.ogg" fadeout 1.0
     
     play sound "sound/se/se_030.ogg"
     
@@ -142,7 +142,7 @@ label misogi1:
     show misogi mi_1_06b
     with dissolve
     
-    mi "「どう？　こういう雰囲気は、嫌いかな？」"
+    mi "「どう？こういう雰囲気は、嫌いかな？」"
     
     so "「いや、良い。凄く良い」"
     
@@ -258,7 +258,8 @@ label misogi1:
     
     "……というか、言う余地を奪われた。"
     
-    scene bg bg_d02
+    hide misogi
+    with dissolve
     
     play sound "sound/se/se_043.ogg"
     
@@ -289,6 +290,7 @@ label misogi1:
     "俺はそこで反論をするのをやめ、主人が戻るのを待ってフォークを取ろうとした。"
     
     show misogi mi_1_02
+    with dissolve
     
     "しかし、みそぎが既にフォークを取っており、その先端にはパスタが巻きついている。"
     
