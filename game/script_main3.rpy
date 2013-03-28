@@ -228,7 +228,7 @@ label main3_B:
     
     elif loveMi >= 1:
         
-        jump ToDo # mi_3.ks - Top
+        jump misogi1 # mi_3.ks - Top
     
     elif loveSi >= 1:
         
