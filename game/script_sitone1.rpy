@@ -1,5 +1,7 @@
 label sitone1:
     
+    #*si_3|６月１６日（ＳＡＴ）：しとねと買い物
+    
     play music "sound/bgm/bgm_002.ogg" fadeout 2.0
     
     "しかし、やっぱり他にやることも無いので、とりあえずしとねにコンタクトを取ってみよう。"

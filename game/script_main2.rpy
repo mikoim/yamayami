@@ -3,6 +3,10 @@ label main2:
 
 label main2_A:
     
+    #*plo2|６月７日（ＴＨＵ）：翌日
+    
+    #@day nowday='６月７日（ＴＨＵ）'
+    
     play music "sound/bgm/bgm_002.ogg"
     
     scene bg school passage
@@ -578,6 +582,8 @@ label main2_A_3:
     jump main2_B
 
 label main2_B:
+    
+    #*plo2_5|６月７日（ＴＨＵ）：翌日（２）
     
     play music "sound/bgm/bgm_001.ogg" fadeout 2.0
     

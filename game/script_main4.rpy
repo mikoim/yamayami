@@ -3,6 +3,10 @@ label main4:
 
 label main4_A:
     
+    #*plo4|６月１７日（ＳＵＮ）：休日の過ごし方
+    
+    #@day nowday='６月１７日（ＳＵＮ）'
+    
     play music "sound/bgm/bgm_003.ogg"
     
     scene bg bg_b00
@@ -49,11 +53,11 @@ label main4_A:
     menu:
         "しとねを起こしてみる":
             $ loveSi += 1
-            jump sitone2
+            jump ToDo # si_4.ks - Top
             
         "雨だが散歩してみる":
             $ loveMi += 1
-            jump misogi2
+            jump ToDo # mi_4.ks - Top
             
         "めんどくさいので何もしない":
             jump main4_A_1
@@ -78,13 +82,15 @@ label main4_A_1:
     menu:
         "携帯の電源をつける":
             $ loveAy += 1
-            jump ayame2
+            jump ToDo # aya_4.ks - Top
             
         "テレビをつける":
             $ loveKi += 1
-            jump kiriko2
+            jump ToDo # ki_4.ks - Top
 
 label main4_B:
+    
+    #*plo4_3|６月１７日（ＳＵＮ）：休日の過ごし方（２）
     
     play music "sound/bgm/bgm_001.ogg"
     
@@ -105,4 +111,5 @@ label main4_B:
     
     "と言うわけで、俺は宿題に追われ、結局眠りについたのは日付が変わってからだった。"
     
-    
+    #[s_end exp="sf.plo4_3=1" jump=ki_4.ks ta=*ki_4z cond="f.kiriko_4==1"]
+    #[s_end exp="sf.plo4_3=1" jump=plo5.ks]

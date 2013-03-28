@@ -3,6 +3,10 @@ label main3:
 
 label main3_A:
     
+    #*plo3|６月１６日（ＳＡＴ）：半ドン
+    
+    #@day nowday='６月１６日（ＳＡＴ）'
+    
     scene bg bg_s01
     with Fade(1, 0, 1)
     
@@ -216,22 +220,20 @@ label main3_B:
     
     if loveAy >= 1:
         
-        jump ayame1
+        jump ToDo # aya_3.ks - Top
     
     elif loveKi >= 1:
         
-        jump kiriko1
+        jump ToDo # ki_3.ks - Top
     
     elif loveMi >= 1:
         
-        jump misogi1
+        jump ToDo # mi_3.ks - Top
     
     elif loveSi >= 1:
         
-        jump sitone1
+        jump sitone1 # si_3.ks - Top
     
     else:
-        
-        "（´・ω・） ｽ" "未実装（´・ω・） ｶﾜｲｿｽ..."
         
         return

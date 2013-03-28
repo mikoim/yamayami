@@ -1,5 +1,10 @@
  label main1:
     
+    #[trans time=2000 method=crossfade]
+    
+    #*plo|６月６日（ＷＥＤ）：プロローグ
+    #@day nowday='６月６日（ＷＥＤ）'
+    
     play music "sound/bgm/bgm_rain.ogg" fadein 4.0
     
     scene bg bg_s01
