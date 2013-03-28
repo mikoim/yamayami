@@ -2,7 +2,7 @@ label sitone1:
     
     #*si_3|６月１６日（ＳＡＴ）：しとねと買い物
     
-    play music "sound/bgm/bgm_002.ogg" fadeout 2.0
+    play music "sound/bgm/bgm_002.ogg"
     
     "しかし、やっぱり他にやることも無いので、とりあえずしとねにコンタクトを取ってみよう。"
     
@@ -14,6 +14,7 @@ label sitone1:
     "流石に明良の目の前で今日の予定を組むわけには行かないので、校門を出たところでしとねに電話をかける。"
     
     play sound "sound/se/se_080.ogg"
+    with Pause(1.4)
     
     play sound "sound/se/se_081.ogg"
     
