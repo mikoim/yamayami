@@ -69,7 +69,7 @@ label main4_A_1:
     "そういうことで、俺はもう一度ベッドに横になり布団をかぶった。"
     
     scene bg bg_b00
-    with Fade(1, 0, 1)
+    with Fade(1, 1, .8)
     
     "…………"
     
