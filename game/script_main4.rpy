@@ -53,7 +53,7 @@ label main4_A:
     menu:
         "しとねを起こしてみる":
             $ loveSi += 1
-            jump ToDo # si_4.ks - Top
+            jump sitone2
             
         "雨だが散歩してみる":
             $ loveMi += 1
