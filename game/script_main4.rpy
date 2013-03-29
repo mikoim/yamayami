@@ -57,7 +57,7 @@ label main4_A:
             
         "雨だが散歩してみる":
             $ loveMi += 1
-            jump ToDo # mi_4.ks - Top
+            jump misogi2
             
         "めんどくさいので何もしない":
             jump main4_A_1
