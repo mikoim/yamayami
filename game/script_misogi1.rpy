@@ -404,7 +404,7 @@ label misogi1:
     
     mi "「あ、うん。私、ちょっとお手洗いに行ってくる……」"
     
-    hide misogi
+    hide misogi mi_1_06a
     with Dissolve(2)
     
     "みそぎがいない間に会計を済ませることにした。"
