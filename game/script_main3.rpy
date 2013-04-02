@@ -220,7 +220,7 @@ label main3_B:
     
     if loveAy >= 1:
         
-        jump ToDo # aya_3.ks - Top
+        jump ayame1 # aya_3.ks - Top
     
     elif loveKi >= 1:
         
