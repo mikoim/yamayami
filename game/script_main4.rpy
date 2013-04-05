@@ -82,11 +82,11 @@ label main4_A_1:
     menu:
         "携帯の電源をつける":
             $ loveAy += 1
-            jump ToDo # aya_4.ks - Top
+            jump ayame2 # aya_4.ks - Top
             
         "テレビをつける":
             $ loveKi += 1
-            jump ToDo # ki_4.ks - Top
+            jump kiriko2_A # ki_4.ks - Top
 
 label main4_B:
     
@@ -111,5 +111,8 @@ label main4_B:
     
     "と言うわけで、俺は宿題に追われ、結局眠りについたのは日付が変わってからだった。"
     
-    #[s_end exp="sf.plo4_3=1" jump=ki_4.ks ta=*ki_4z cond="f.kiriko_4==1"]
-    #[s_end exp="sf.plo4_3=1" jump=plo5.ks]
+    if f_kiriko_4==1:
+        jump kiriko2_B # ki_4.ks - *ki_4z
+        "test"
+    
+    jump main5 # plo5.ks - Top

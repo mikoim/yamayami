@@ -37,6 +37,11 @@ init:
     $ loveMi = 0
     $ loveSi = 0
     
+    #分岐フラグ
+    
+    #キリコ
+    $ f_kiriko_4 = 0
+    
     #Background image
     image bg school classroom = "image/bg/bg_a00.jpg"
     image bg school passage = "image/bg/bg_a01.jpg"
