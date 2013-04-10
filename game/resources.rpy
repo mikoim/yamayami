@@ -13,6 +13,8 @@ init:
     
     # 朽無 みそぎ (くちなし みそぎ)
     define mi = Character(u"みそぎ", color="#b6b3eb")
+    define mi_s = Character(u"みそぎ", color="#E282FF",what_color="#E282FF")
+    define mi_sn = Character(what_color="#E282FF")
     
     # 雨宮 しとね (あめみや しとね)
     define si = Character(u"しとね", color="#ffaed4")

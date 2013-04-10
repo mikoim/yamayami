@@ -11,7 +11,7 @@ label main5_A:
     scene bg bg_b02
     with Fade(1, 0, 1)
     
-    so "「ふぁ、〜あ、眠い……」"
+    so "「ふぁ、～あ、眠い……」"
     
     "昨晩も例によって宿題があったことを忘れ、夜になってから取り掛かった。"
     
@@ -49,7 +49,7 @@ label main5_A:
     
     "雨は嫌いじゃないし、むしろ好きなくらいだが、こう毎日続くと気が滅入る。と言うよりは登下校時に濡れるのが嫌だ。"
     
-    so "「あ〜、もう鬱陶しいよなぁ。そろそろ夏になれば良いのになぁ」"
+    so "「あ～、もう鬱陶しいよなぁ。そろそろ夏になれば良いのになぁ」"
     
     show sitone si_2_01
     
@@ -86,7 +86,7 @@ label main5_A:
     
     "支度を終えたしとねが玄関から声を上げる。"
     
-    so "「おう、気をつけてな〜」"
+    so "「おう、気をつけてな～」"
     
     "洗面所から顔を覗かせ、俺はしとねを見送る。"
     
@@ -107,7 +107,7 @@ label main5_A:
     
     "一度、うんっと伸びをする。"
     
-    so "「う、やっぱり何か疲れてんな……ふぁ、あ〜ぁ」"
+    so "「う、やっぱり何か疲れてんな……ふぁ、あ～ぁ」"
     
     "玄関に置いてある傘を取り、ドアノブに手をかける。"
     
@@ -130,12 +130,12 @@ label main5_A:
     
     "時計を確認すると、確かにまだ時間はある。取りに帰れる時間だが、ちょっと厳しい。"
     
-    "う〜ん、どうするかなぁ……。"
+    "う～ん、どうするかなぁ……。"
     
     menu:
         "急いで取りに帰る":
             $ loveMi += 1
-            jump ToDo # mi_5.ks - mi_5a
+            jump misogi3_A # mi_5.ks - mi_5a
             
         "このまま学校へ向かう":
             jump main5_A_1
@@ -263,7 +263,7 @@ label main5_B:
     menu:
         "図書館へ行く":
             $ loveAy += 1
-            jump ToDo # aya_5.ks - aya_5a
+            jump ayame3_A # aya_5.ks - aya_5a
         
         "屋上へ行く":
             $ loveKi += 1
@@ -271,7 +271,7 @@ label main5_B:
         
         "みそぎに話しかける":
             $ loveMi += 1
-            jump ToDo # mi_5.ks - mi_5b
+            jump misogi3_B # mi_5.ks - mi_5b
         
         "教室で寝る":
             jump main5_B_1
@@ -340,7 +340,7 @@ label main5_C:
     
 label main5_C_1:
     
-    "トミー" "「グッジョブ！『who shall tie the bell around the cat's neck?』……イソップ童話ですね」"
+    "トミー" "「グッジョブ！『who shall tie the bell around the cat's neck～』……イソップ童話ですね」"
     
     "ふぅ、正解したか……。"
     
@@ -352,7 +352,7 @@ label main5_C_1:
     
 label main5_C_2:
     
-    "トミー" "「残念、ユーの家だけネコ娘が第三期〜」"
+    "トミー" "「残念、ユーの家だけネコ娘が第三期～」"
     
     so "「うわあああああああああ」"
     
@@ -464,7 +464,7 @@ label main5_D_1:
     menu:
         "グー":
             $ loveAy += 1
-            jump ToDo # aya_5.ks - aya_5b
+            jump ayame3_B # aya_5.ks - aya_5b
         
         "パー":
             $ loveSi += 1
@@ -536,7 +536,7 @@ label main5_D_2:
     
     so "「じゃぁな。お疲れ」"
     
-    ak "「おう、お疲れ〜」"
+    ak "「おう、お疲れ～」"
     
     hide akira
     
@@ -547,7 +547,7 @@ label main5_D_2:
     menu:
         "そのまま玄関へ":
             $ loveMi += 1
-            jump ToDo # mi_5.ks - mi_5c
+            jump misogi3_C # mi_5.ks - mi_5c
         
         "トイレに寄る":
             $ loveKi += 1
@@ -621,7 +621,7 @@ label main5_E:
     scene bg bg_b00
     with Fade(1, 0, 1)
     
-    so "「あ〜あ、疲れた」"
+    so "「あ～あ、疲れた」"
     
     "宿題を終え、椅子の後ろにあるベッドに倒れこむ。"
     
@@ -635,7 +635,7 @@ label main5_E:
     
     "せめて、じめじめしてなければいいんだが。"
     
-    so "「ふぁ〜ぁ」"
+    so "「ふぁ～ぁ」"
     
     "安堵感が押し寄せ、急に睡魔が襲ってくる。"
     
