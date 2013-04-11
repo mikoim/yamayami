@@ -548,7 +548,7 @@ label ayame3_B:
     
     so "「わかったから離れろ、まだ五回残ってるから」"
     
-    hide aya_1_02
+    hide ayame aya_1_02
     with dissolve
     
     "残った分の回数もこなすと、六回トータルでヤミー君とヤマちゃんが二つずつ手に入った。"
