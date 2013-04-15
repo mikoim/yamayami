@@ -113,6 +113,5 @@ label main4_B:
     
     if f_kiriko_4==1:
         jump kiriko2_B # ki_4.ks - *ki_4z
-        "test"
     
     jump main5 # plo5.ks - Top

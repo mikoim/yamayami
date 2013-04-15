@@ -10,6 +10,8 @@ init:
     
     # 犬哭 キリコ (いぬなき きりこ)
     define ki = Character(u"キリコ", color="#ff6479")
+    define ki_s = Character(u"キリコ", color="#E282FF",what_color="#E282FF")
+    define ki_sn = Character(what_color="#E282FF")
     
     # 朽無 みそぎ (くちなし みそぎ)
     define mi = Character(u"みそぎ", color="#b6b3eb")
@@ -43,6 +45,7 @@ init:
     
     #キリコ
     $ f_kiriko_4 = 0
+    $ f_kiriko_5 = 0
     
     #Background image
     image bg school classroom = "image/bg/bg_a00.jpg"

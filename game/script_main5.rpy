@@ -6,7 +6,7 @@ label main5_A:
     #*plo5|６月２０日（ＷＥＤ）：雨って憂鬱
     #@day nowday='６月２０日（ＷＥＤ）'
     
-    play music "sound/bgm/bgm_002.ogg"
+    play music "sound/bgm/bgm_002.ogg" fadeout 2.0
     
     scene bg bg_b02
     with Fade(1, 0, 1)
@@ -267,7 +267,7 @@ label main5_B:
         
         "屋上へ行く":
             $ loveKi += 1
-            jump ToDo # ki_5.ks - ki_5a
+            jump kiriko3_A # ki_5.ks - ki_5a
         
         "みそぎに話しかける":
             $ loveMi += 1
@@ -468,7 +468,7 @@ label main5_D_1:
         
         "パー":
             $ loveSi += 1
-            jump ToDo # si_5.ks - si_5
+            jump sitone3_A # si_5.ks - si_5
 
 label main5_D_2:
     
@@ -551,7 +551,7 @@ label main5_D_2:
         
         "トイレに寄る":
             $ loveKi += 1
-            jump ToDo # ki_5.ks - ki_5b
+            jump kiriko3_B # ki_5.ks - ki_5b
 
 label main5_E:
     
@@ -653,6 +653,7 @@ label main5_E:
     
     "明日の朝は歯垢とか凄いんだろうな、などと思いながら、俺は眠りに落ちた。"
     
-    #[s_end exp="sf.plo5_b=1" jump=ki_5.ks ta=*ki_5z cond="f.kiriko_5==1"]
-    #[s_end exp="sf.plo5_b=1" jump=plo6.ks]
+    if f_kiriko_5==1:
+        jump kiriko3_C # ki_5.ks - *ki_5z
     
+    jump main6 # plo6.ks - Top
