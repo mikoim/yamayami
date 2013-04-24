@@ -47,6 +47,12 @@ init:
     $ f_kiriko_4 = 0
     $ f_kiriko_5 = 0
     
+    #みそぎ
+    $ f_misogi_6 = 0
+    
+    #しとね
+    $ f_sitone_6 = 0
+    
     #Background image
     image bg school classroom = "image/bg/bg_a00.jpg"
     image bg school passage = "image/bg/bg_a01.jpg"
