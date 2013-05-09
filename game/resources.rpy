@@ -4,6 +4,8 @@ init:
     
     # 雨宮聡介 (あめみや そうすけ)
     define so = Character(u"聡介")
+    define so_mi = Character(u"聡介", color="#E282FF",what_color="#E282FF")
+    define so_ki = Character(u"聡介", color="#E282FF",what_color="#E282FF")
     
     # 首館 あやめ (くびたち あやめ)
     define ay = Character(u"あやめ", color="#d47e61")
@@ -34,6 +36,7 @@ init:
     
     # 木戸 零佳 (きど れいか)
     define re = Character(u"零佳", color="#6e6e8d")
+    define re_s = Character(u"零佳", color="#E282FF",what_color="#E282FF")
     
     #Variable
     $ loveAy = 0
@@ -46,6 +49,7 @@ init:
     #キリコ
     $ f_kiriko_4 = 0
     $ f_kiriko_5 = 0
+    $ sf_k_true = 0
     
     #みそぎ
     $ f_misogi_6 = 0

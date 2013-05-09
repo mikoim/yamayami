@@ -262,4 +262,4 @@ label kiriko4_C_2:
     
     "………………………………………………zzz。"
     
-    jump ToDo # k_01.ks - k_01
+    jump kiriko5 # k_01.ks - k_01

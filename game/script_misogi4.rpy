@@ -497,7 +497,9 @@ label misogi4_D_1: #*mi_6d|
     
     "思い立ったが吉日（？）、俺は起き上がり、風呂へと向かった。"
     
-    jump Todo # m_01.ks - Top
+    stop music fadeout 1.0
+    
+    jump misogi5 # m_01.ks - Top
 
 #;-----------------別に言ってなかったかも──------------------------
 label misogi4_D_2: # *mi_6e|
@@ -584,4 +586,6 @@ label misogi4_D_2: # *mi_6e|
     
     "さ、それじゃ風呂入って早めに寝るとしようか。"
     
-    jump Todo # m_01.ks - Top
+    stop music fadeout 1.0
+    
+    jump misogi5 # m_01.ks - Top
