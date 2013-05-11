@@ -413,4 +413,4 @@ label ayame4_B:
     
     "実に楽しい昼食になった。"
     
-    jump ToDo # a_01.ks - Top
+    jump ayame5 # a_01.ks - Top

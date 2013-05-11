@@ -46,6 +46,9 @@ init:
     
     #分岐フラグ
     
+    #あやめ
+    $ f_ayame_01 = 0
+    
     #キリコ
     $ f_kiriko_4 = 0
     $ f_kiriko_5 = 0
@@ -154,6 +157,7 @@ init:
     image bg bg_s02 = "image/bg/bg_s02.jpg"
     image bg bg_s04 = "image/bg/bg_s04.jpg"
     image bg bg_z00 = "image/bg/bg_z00.jpg"
+    image bg bg_z02 = "image/bg/bg_z02.jpg"
     
     #CG
     image cg cg_aa_01 = "image/cg/cg_aa_01.png"

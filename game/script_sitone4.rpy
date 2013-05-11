@@ -463,4 +463,4 @@ label sitone4_C:
     
     "そんなこんなで祭をしとねと一緒に行く予定も決まり、何事もなく一日は終わりを告げた。"
     
-    jump ToDo # s_01.ks - Top
+    jump stop # s_01.ks - Top
