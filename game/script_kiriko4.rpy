@@ -139,7 +139,7 @@ label kiriko4_B:
     scene bg school classroom
     with Fade(1, 0, 1)
     
-    so "「終わった―――――ッ！！」"
+    so "「終わった—————ッ！！」"
     
     "終わった。"
     

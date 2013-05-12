@@ -1,2 +1,2 @@
-﻿label start:
+label start:
     jump main1
