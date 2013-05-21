@@ -295,7 +295,7 @@ label sitone4_C:
     
     so "「いや、久々に雨も降ってなかったし、屋上で弁当を食べてきたんだ」"
     
-    mi "「そうだったんだ……、言っ――」"
+    mi "「そうだったんだ……、言っ——」"
     
     show akira aki_1_08 at left
     show misogi mi_1_06a at right

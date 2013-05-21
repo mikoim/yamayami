@@ -1,4 +1,4 @@
-﻿label misogi2:
+label misogi2:
 
     #*mi_4|６月１７日（ＳＵＮ）：雨とあなたと紫陽花と
     

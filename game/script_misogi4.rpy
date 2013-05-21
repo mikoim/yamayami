@@ -1,4 +1,4 @@
-﻿label misogi4_A:
+label misogi4_A:
 
     #*mi_6a|６月２５日（ＭＯＮ）：イ・タ・ズ・ラ
     

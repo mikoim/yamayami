@@ -1,4 +1,4 @@
-﻿label misogi5:
+label misogi5:
 
     #*m_01|７月５日（ＴＨＵ）：想いよ届け、流れ星
 

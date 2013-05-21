@@ -1,4 +1,4 @@
-﻿label misogi6:
+label misogi6:
 
     #*m_02|７月６日（ＦＲＩ）：想いをこめて
     

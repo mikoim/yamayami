@@ -1,4 +1,4 @@
-﻿label misogi3_A:
+label misogi3_A:
 
     #*mi_5a|６月２０日（ＷＥＤ）：めぐり合わせ
     

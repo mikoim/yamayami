@@ -1,4 +1,4 @@
-﻿label main3:
+label main3:
     jump main3_A
 
 label main3_A:
