@@ -1072,4 +1072,4 @@ label ayame5_A_2: #*a_01b|
     
     so "「でもその幸せが本当に、俺や、俺のまわりに広がっていくといいな」"
     
-    jump stop #a_02.ks - Top
+    jump ayame6 #a_02.ks - Top
