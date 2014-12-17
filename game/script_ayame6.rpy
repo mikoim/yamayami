@@ -547,7 +547,7 @@ label ayame6:
     show ayame aya_1_01 at right
     with dissolve
     
-    so "「いいんだしとね。
+    so "「いいんだしとね。」"
     
     show sitone si_2_08 at left
     with dissolve
