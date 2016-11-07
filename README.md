@@ -1,13 +1,25 @@
-#yamayami
+# Yamayami
 Yamayami(ヤマヤミ/止マナイ雨ニ病ミナガラ) ported to Ren'Py.
 
-**ヤマヤミ**こと**止マナイ雨ニ病ミナガラ**をRen'Pyに移植しています。
+**ヤマヤミ**こと**[止マナイ雨ニ病ミナガラ](https://www58.atwiki.jp/yandere01/pages/1.html "ヒロインが全員ヤンデレなギャルゲ作ろうぜまとめ　@ ウィキ - 止マナイ雨ニ病ミナガラ制作まとめ")**をRen'Pyに移植するプロジェクト．
 
-##使い方
+## Getting started
 
-1. スクリプトをclone
-<pre>git clone git://github.com/mikoim/yamayami.git</pre>
+```bash
+# Clone project
+git clone git://github.com/mikoim/yamayami.git
 
-2. Ren'Pyでプレイ
-<pre>http://www.renpy.org/</pre>
+# Move yamayami to your Ren'Py project directory
+mv yamayami $YOUR_PROJECT_DIRECTORY
 
+# Linux / Other
+renpy.sh
+
+# Windows
+renpy.exe
+```
+
+## Demo
+
+![Yamayami: Top menu](demo/top.png)
+![Yamayami: in-game](demo/in-game.png)
