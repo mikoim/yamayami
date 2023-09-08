@@ -1,4 +1,4 @@
- label main1:
+label main1:
     
     #[trans time=2000 method=crossfade]
     
